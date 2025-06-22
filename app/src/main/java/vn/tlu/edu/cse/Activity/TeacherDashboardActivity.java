@@ -37,7 +37,6 @@ public class TeacherDashboardActivity extends AppCompatActivity {
         manageRequestsButton.setOnClickListener(v -> {
             startActivity(new Intent(this, ManageRequestsActivity.class));
         });
-        public change
 
         logoutButton.setOnClickListener(new View.OnClickListener() {
             @Override
