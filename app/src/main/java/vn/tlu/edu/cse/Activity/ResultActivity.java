@@ -23,6 +23,7 @@ public class ResultActivity extends AppCompatActivity {
         timeTextView = findViewById(R.id.timeTextView);
         backButton = findViewById(R.id.backButton);
 
+
         int correct = getIntent().getIntExtra("CORRECT", 0);
         int wrong = getIntent().getIntExtra("WRONG", 0);
         int unanswered = getIntent().getIntExtra("UNANSWERED", 0);
@@ -30,8 +31,8 @@ public class ResultActivity extends AppCompatActivity {
         long time = getIntent().getLongExtra("TIME", 0);
 
         // Tính điểm trên thang 10
-        double score = (correct / (double) totalQuestions) * 10;
-        scoreTextView.setText(String.format("Điểm: %.1f/10", score));
+        double score = (correct / (double) totalQuestions) * 100;
+        scoreTextView.setText(String.format("Điểm: %.1f/100", score));
         correctTextView.setText("Số câu đúng: " + correct);
         wrongTextView.setText("Số câu sai: " + wrong);
         unansweredTextView.setText("Số câu chưa trả lời: " + unanswered);
