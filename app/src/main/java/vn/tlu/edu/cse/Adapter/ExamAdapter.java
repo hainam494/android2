@@ -44,7 +44,7 @@ public class ExamAdapter extends RecyclerView.Adapter<ExamAdapter.ExamViewHolder
         });
     }
 
-    pub
+
 
     @Override
     public int getItemCount() {
