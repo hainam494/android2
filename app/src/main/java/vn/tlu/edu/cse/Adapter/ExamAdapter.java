@@ -62,6 +62,7 @@ public class ExamAdapter extends RecyclerView.Adapter<ExamAdapter.ExamViewHolder
         TextView tvExamName;
         TextView tvExamTime;
         ImageButton btnDelete;
+recyclerView.setAdapter(new ExamAdapter(examList, listener));
 
         public ExamViewHolder(@NonNull View itemView) {
             super(itemView);
