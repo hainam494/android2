@@ -78,7 +78,6 @@ public class EditProfileActivity extends AppCompatActivity {
             studentIdEditText.setText(cursor.getString(1));
             passwordEditText.setText(cursor.getString(2));
         }
-        public
         cursor.close();
         dbReadable.close();
     }
