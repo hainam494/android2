@@ -77,11 +77,6 @@ public class ExamListActivity extends AppCompatActivity {
     private class ExamAdapter extends RecyclerView.Adapter<ExamAdapter.ExamViewHolder> {
         private List<Exam> examList;
         private String studentId;
-
-        public String getStudentId() {
-            return studentId;
-        }
-
         public ExamAdapter(List<Exam> examList, String studentId) {
             this.examList = examList;
             this.studentId = studentId;
