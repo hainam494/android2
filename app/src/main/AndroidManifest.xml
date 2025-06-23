@@ -35,6 +35,7 @@
         <activity android:name=".Activity.TeacherDashboardActivity" />
         <activity android:name=".Activity.StudentDashboardActivity" />
         <activity android:name=".Activity.ManageRequestsActivity"/>
+        <activity android:name=".Activity.SearchStudentActivity"/>
 
     </application>
 
