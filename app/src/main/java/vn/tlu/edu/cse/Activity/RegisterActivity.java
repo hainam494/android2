@@ -44,6 +44,7 @@ public class RegisterActivity extends AppCompatActivity {
             String studentId = studentIdEditText.getText().toString().trim();
             String password = passwordEditText.getText().toString().trim();
             String confirmPassword = confirmPasswordEditText.getText().toString().trim();
+            setContentView(R.layout.activity_take_exam);
 
             // Kiểm tra các trường nhập liệu
             if (email.isEmpty() || studentId.isEmpty() || password.isEmpty() || confirmPassword.isEmpty()) {
