@@ -33,7 +33,6 @@ public class TakeExamActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_take_exam);
-        setContentView(R.layout.activity_take_exam);
 
         // Khởi tạo các thành phần giao diện
         timerTextView = findViewById(R.id.timerTextView);
