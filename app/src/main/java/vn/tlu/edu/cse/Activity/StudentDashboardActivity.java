@@ -80,6 +80,7 @@ public class StudentDashboardActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        public void onClick(View v) {
 
         logoutButton.setOnClickListener(new View.OnClickListener() {
             @Override
