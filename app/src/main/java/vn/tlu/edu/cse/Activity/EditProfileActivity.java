@@ -72,8 +72,6 @@ public class EditProfileActivity extends AppCompatActivity {
                         " FROM " + DatabaseHelper.TABLE_USERS +
                         " WHERE " + DatabaseHelper.COLUMN_EMAIL + "=?",
                 new String[]{currentEmail});
-        public
-
         if (cursor.moveToFirst()) {
             emailEditText.setText(cursor.getString(0));
             studentIdEditText.setText(cursor.getString(1));
